@@ -81,9 +81,13 @@ esto seria la estrcutura de capas
 
 Databricks Workspace
 └── Catalog: workspace
+
     └── Schema: default
+    
         ├── pacientesbronce   → Capa BRONZE (datos crudos)
+        
         ├── pacientessilver   → Capa SILVER (datos limpios)
+        
         └── pacientesgold     → Capa GOLD (métricas agregadas)
 
 este proyecto esta finalizado con las tres capas
