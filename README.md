@@ -80,6 +80,7 @@ la tabla creada deberia estar ahy
 esto seria la estrcutura de capas
 
 Databricks Workspace
+
 └── Catalog: workspace
 
     └── Schema: default
